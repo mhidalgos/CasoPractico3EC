@@ -27,17 +27,16 @@ document.getElementById("aniadirElemento").addEventListener("click", function() 
   const contenedor = document.getElementById("contenido");
   contenedor.appendChild(nuevoTitulo);
 });
-
+/**
+ * Redimensionar
+ */
 const boton = document.getElementById("cambiarTamano");
 boton.addEventListener("click", function() {
     window.resizeTo(800, 600); 
 });
-
-
-
-
-
-
+/**
+ * Generar formulario a través DOM y alert() y error()
+ */
 document.getElementById("mostrarFormulario").addEventListener("click", function () {
   const contenedor = document.getElementById("formularioContainer");
   if (document.getElementById("formNuevoProducto")) {
