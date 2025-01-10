@@ -1,0 +1,82 @@
+/* Estilo global del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* Estilo del encabezado */
+header {
+    background-color: #6c6685;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Estilo para el título principal dentro del encabezado */
+header h1 {
+    margin: 0;
+}
+/* Contenedor de la barra de búsqueda */
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+/* Estilo del campo de texto dentro de la barra de búsqueda */
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Estilo del botón de búsqueda */
+.search-container button {
+    padding: 10px 20px;
+    background-color: #6c6685;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Estilo del contenedor principal */
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+/* Estilo individual para cada producto */
+.product {
+    background-color: white;
+    width: 23%;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo del título de cada producto */
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+/* Estilo del texto descriptivo */
+.product p {
+    font-size: 14px;
+    color: #555;
+}
+/* Estilo del pie de página */
+footer {
+    background-color: #6c6685;
+    color: white;
+    text-align: center;
+    padding: 8x;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#contenido h2.centrado {
+    text-align: center;
+    margin: 20px 0; 
+    font-size: 24px; 
+}

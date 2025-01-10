@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Título de la página que aparecerá en la pestaña del navegador -->
+        <title>Extremadura TIC</title>
+        <!-- Enlace al archivo CSS con los estilos definidos -->
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        <!-- Encabezado de la página -->
+        <header>
+            <h1 id="titulo">EXTREMADURA TIC</h1>
+            
+        </header>
+
+        
+
+        
+        <div class="search-container">
+            <button id="cambiarTitulo">Cambiar título</button>
+            <button id="aniadirElemento">Añadir elemento</button>
+            <button id="cambiarTamano">Cambiar tamaño de la ventana</button>
+            <button id="mostrarFormulario">Formulario añadir nuevo producto</button>
+            <div id="formularioContainer"></div>
+        </div>
+
+        <div id="contenido">
+            
+        </div>
+        <!-- Grid para mostrar los productos -->
+        <div class="product-grid">
+            <div class="product">
+                <h3>Portátil Dell XPS 13</h3>
+                <p>Ultrabook con procesador Intel Core i7, 16GB de RAM y pantalla táctil 4K. Ideal para productividad y diseño.</p>
+                <div class="search-container">
+                    <button onclick="mostrarMensaje('Añadido Portátil Dell XPS 13')">Añadir</button>
+                </div>
+            </div>
+            <div class="product">
+                <h3>Portátil MacBook Air M2</h3>
+                <p>Ligero y potente, con chip M2, 8GB de RAM y autonomía para todo el día. Perfecto para usuarios en movimiento.</p>
+                <div class="search-container">
+                    <button onclick="mostrarMensaje('Añadido Portátil MacBook Air M2')">Añadir</button>
+                </div>
+            </div>
+            <div class="product">
+                <h3>Portátil Lenovo ThinkPad X1 Carbon</h3>
+                <p>Diseño resistente, procesador Intel Core i5, 16GB de RAM y teclado ergonómico. Ideal para profesionales.</p>
+                <div class="search-container">
+                    <button onclick="mostrarMensaje('Añadido Portátil Lenovo ThinkPad X1 Carbon')">Añadir</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Pie de página -->
+        <footer>
+            <p>© 2024. Todos los derechos reservados</p>
+        </footer>
+        <!-- Enlace al documento JavaScript donde se definen las funciones utilizadas -->
+        <script src="/js/script.js"></script>
+    </body>
+</html>
